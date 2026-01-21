@@ -92,7 +92,7 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:3000");
+const socket = io("https://tic-tac-toe-multiplayer-pl3o.onrender.com");
 
 export default function App() {
   const [name, setName] = useState("");
