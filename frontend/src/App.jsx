@@ -92,7 +92,8 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://tic-tac-toe-multiplayer-pl3o.onrender.com");
+const socket = io("https://tic-tac-toe-multiplayer-rouge.vercel.app/");
+
 
 export default function App() {
   const [name, setName] = useState("");
